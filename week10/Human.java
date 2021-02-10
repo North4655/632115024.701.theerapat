@@ -21,6 +21,11 @@ public class Human {
     System.out.println("the section calling hit(Anima)");
     human.hit(dog);//Question 3
 
+     dog = new Fish();
+     System.out.println("the third calling hit(Anima)");
+     human.hit(dog);
+
+
  }
 
 
